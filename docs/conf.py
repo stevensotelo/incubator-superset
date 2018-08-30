@@ -33,7 +33,6 @@ import sphinx_rtd_theme
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
-    'sphinxcontrib.youtube',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -52,7 +51,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = "Apache Superset"
-copyright = None
+copyright = 'Apache Software Foundation'
 author = u'Maxime Beauchemin'
 
 # The version info for the project you're documenting, acts as replacement for

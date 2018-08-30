@@ -1,6 +1,7 @@
 {
   "extends": "airbnb",
-  "parserOptions":{
+  "parser": "babel-eslint",
+  "parserOptions": {
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true
     }
@@ -38,5 +39,8 @@
     "react/no-unescaped-entities": 0,
     "react/no-unused-prop-types": 0,
     "react/no-string-refs": 0,
+    "indent": 0,
+    "no-multi-spaces": 0,
+    "padded-blocks": 0,
   }
 }
